@@ -13,7 +13,7 @@ while($i<100) {
 		$i++;
 	}
 	if(is_int($i/5)){
-		echo 'Bazz' . '</br>';
+		echo 'Buzz' . '</br>';
 		$i++;
 	}
 	else{
