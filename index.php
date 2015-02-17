@@ -4,20 +4,20 @@ $i=1;
 
 while($i<100) {
 	if(is_int($i/3) && is_int($i/5)) {
-		echo 'FizzBuzz' . '</br>';
+		echo 'FizzBuzz' . '<br>';
 		$i++;
 	}
 	if(is_int($i/3))
 	{
-		echo 'Fizz' . '</br>';
+		echo 'Fizz' . '<br>';
 		$i++;
 	}
 	if(is_int($i/5)){
-		echo 'Buzz' . '</br>';
+		echo 'Buzz' . '<br>';
 		$i++;
 	}
 	else{
-		echo $i . '</br>';
+		echo $i . '<br>';
 		$i++;
 	}
 }
