@@ -1,6 +1,5 @@
 <?php
 
-$numbers = array();
 $i=1;
 
 while($i<100) {
